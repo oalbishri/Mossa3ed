@@ -9,7 +9,7 @@ API_ENDPOINT = "https://experimental.willow.vectara.io/v1/chat/completions"
 HEADERS = {
     'Content-Type': 'application/json',
     'customer-id': '4199489844',
-    'x-api-key': 'zqt_-k8hNEUhRd_i5aZYRiC5xeVkamJ4bfMS4RToVg'
+    'x-api-key': 'XXXXX'
 }
 
 def get_vectara_data(complaint):
@@ -32,8 +32,8 @@ def get_vectara_data(complaint):
     headers = {
         'Content-Type': 'application/json',
         'Accept': 'application/json',
-        'customer-id': '4199489844',
-        'x-api-key': 'zqt_-k8hNEUhRd_i5aZYRiC5xeVkamJ4bfMS4RToVg'
+        'customer-id': 'XXXXX',
+        'x-api-key': 'XXXXXX'
     }
 
     response = requests.request("POST", url, headers=headers, data=payload)
